@@ -13,6 +13,6 @@ else:
     if number < 0:
         neg = number * -1
         rem = neg % 10
-        print(f"Last digit of {number} is {rem} and is less than 6 and not 0")
+        print(f"Last digit of {number} is -{rem} and is less than 6 and not 0")
     else:
-        print(f"Last digit of {number} is {rem} and is 0")
+        print(f"Last digit of {number} is 0 and is 0")
