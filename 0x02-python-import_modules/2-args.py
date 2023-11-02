@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
+    """printing command line arguments"""
     import sys
 
     length = len(sys.argv) - 1
