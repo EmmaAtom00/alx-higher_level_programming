@@ -2,6 +2,7 @@
 
 """Declaring a class with a private attribute size"""
 
+
 class Square:
     """The square object and attributes goes here"""
 
