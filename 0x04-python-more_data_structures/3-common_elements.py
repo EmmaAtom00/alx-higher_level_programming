@@ -5,4 +5,3 @@ def common_elements(set_1, set_2):
     b = set(set_2)
     new_set = a & b
     return new_set
-    
