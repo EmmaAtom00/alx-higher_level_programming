@@ -8,4 +8,3 @@ def uniq_add(my_list=[]):
             existed_list.append(i)
             j += i
     return j
-
