@@ -7,12 +7,11 @@ def safe_print_division(a, b):
     Return:
         Return the result of the division otherwise none
     """
-    result = 0
+
     try:
-        quotient = a/b
-        result = quotient
-        return (quotient)
-    except (ZeroDivisionError, TypeError, ValueError):
-        return ("None")
+        quotient = a / b
+    except (ZeroDivisionError, TypeError):
+        quotient = "None"
     finally:
-        print("Inside result: {}".format(result))
+        print("Inside result: {}".format(quotient))
+    return (quotient)
