@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Defines a square by size using a private attribute and handling exception errors"""
+"""Defines a square by size using a private
+attribute and handling exception errors"""
 
 
 class Square:
