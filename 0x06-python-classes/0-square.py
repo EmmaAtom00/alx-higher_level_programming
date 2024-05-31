@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-
-"""Declare an empty class here"""
-
-
+""" An empty class squre """
 class Square:
-    """Represents a square class"""
+    """attributes and methods of the class goes herer"""
     pass
