@@ -29,6 +29,7 @@ class Square:
 
     @position.setter
     def position(self, value):
+        """Setter to change the value of the square coordnvates"""
         positive = True
         if len(value) == 2:
             if value[0] < 0 or value[1] < 0:
